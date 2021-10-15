@@ -399,18 +399,21 @@ html{
     margin: 4% 0 0 2.1%;
 }
 .content1 .icon_bg{
+    display: flex;
     background-color: #CEF9C6;
     height: 40px;
     width: 40px;
     border-radius: 100%;
 }
 .content2 .icon_bg{
+    display: flex;
     background-color: #FFF8DD;
     height: 40px;
     width: 40px;
     border-radius: 100%;
 }
 .content3 .icon_bg{
+    display: flex;
     background-color: #E3EFFF;
     height: 40px;
     width: 40px;
@@ -473,4 +476,22 @@ html{
 }
 .images img{
     border-radius: 8px;
+}
+.Proj div{
+    display: flex;
+    margin: 0 20px 0 0;
+    justify-content: space-between;
+    width: 100%;
+}
+.Proj div:after{
+    content: url("/img/Search@3x.svg");
+    padding: 33px 0 0 0;
+}
+.Chat:before{
+    content: url("/img/Combined Shape@1x.svg");
+    margin: 6px 0 0 12px ;
+}
+.icon_bg:after{
+    content: url("/img/Icon@3x.svg");
+    margin: 13px 0 0 14px ;
 }
