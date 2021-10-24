@@ -203,11 +203,12 @@ html{
     height: 4px;
     width: 4px;
     border-radius: 100%;
-    background: #D8D8D8;
+    background: #8C8C8CD8;
     margin: 0 4px 0 0;
 }
 .compl_task{
     display: flex;
+    cursor: pointer;
 }
 .compl_task ul{
     margin: 20px 0 0 30px;
@@ -227,6 +228,7 @@ html{
     margin: 4px 0 0 0;
 }
 .menu{
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 31px 0 0 30px;
@@ -253,7 +255,7 @@ html{
     border-radius: 100%;
     height: 20px;
     width: 20px;
-    margin: 114px 0 0 87px;
+    margin: 115px 0 0 87px;
 }
 .Notif p{
     margin: 4px 0 0px 6px;
@@ -350,7 +352,7 @@ html{
     text-decoration: none;
     color: #131313;
     opacity: 0.7;
-    margin: 15px 0 0 30px;
+    margin: 23px 0 14px 30px;
     position: relative;
 }
 .active {
@@ -375,7 +377,7 @@ html{
     display: none;
     background-color: #FFC200;
     position: absolute;
-    top: 39px;
+    top: 31px;
     left: 0;
     z-index: 1;
 }
@@ -421,17 +423,17 @@ html{
 }
 .content1{
     display: flex;
-    margin: 32px 0 0 30px;
+    margin: 30px 0 0 30px;
     flex-wrap: wrap;
 }
 .content2{
     display: flex;
-    margin: 32px 0 0 30px;
+    margin: 30px 0 0 30px;
     flex-wrap: wrap;
 }
 .content3{
     display: flex;
-    margin: 32px 0 0 30px;
+    margin: 30px 0 0 30px;
     flex-wrap: wrap;
 }
 

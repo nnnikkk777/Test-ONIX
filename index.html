@@ -5,6 +5,7 @@
     <title>Title</title>
     <link href="css/styles.css" rel="stylesheet">
     <script src="main.js" rel="script"></script>
+    <script src="buttons.js" rel="script"></script>
 </head>
 <body>
     <div class="general">
@@ -37,18 +38,17 @@
             </div>
 
             <div class="compl_task">
-                    <ul class="Completed">
-                        <li class="number">
+                    <ul class="Completed" id="ComplTs">
+                        <li class="number" id="ComplNumb">
                             372
                         </li>
-
                         <li class="Tasks">
                             Completed Tasks
                         </li>
                     </ul>
 
-                    <ul class="Open">
-                        <li class="number">
+                    <ul class="Open" id="TasksID">
+                        <li class="number" id="TaskNumb">
                             11
                         </li>
 
@@ -62,7 +62,7 @@
                 <h2>
                  MENU
                 </h2>
-                <div class="Notif"><p>3</p></div>
+                <div class="Notif"><p id="NtNumb">3</p></div>
                 <ul>
                     <li>
                         Home
@@ -153,11 +153,7 @@
                         <p class="text">Darika Samak uploaded 4 files on An option to search in current projects or in all projects</p>
                         <p class="time">6:02 PM</p>
                         <div class="comment"></div>
-                        <div class="images">
-                            <img src="img/Picture.png" width="100" height="100" alt="Center">
-                            <img src="img/Picture.png" width="100" height="100" alt="Center">
-                            <img src="img/Picture.png" width="100" height="100" alt="Center">
-                            <img src="img/Picture.png" width="100" height="100" alt="Center">
+                        <div class="images" id="pict">
                         </div>
                     </div>
                 </div>
