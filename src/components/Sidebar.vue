@@ -22,7 +22,7 @@ div(class="aside")
         | {{compl}}
       li(class="Tasks")
         | Completed Tasks
-    ul(class="Open")
+    ul(class="Open" @click="")
       li(class="number")
         | {{open}}
       li(class="Tasks")
