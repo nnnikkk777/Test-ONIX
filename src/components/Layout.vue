@@ -18,5 +18,22 @@ export default defineComponent ({
 </script>
 
 <style scoped>
-
+.general {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: #EAEAEA;
+}
+.gside {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.content_zone {
+  display: flex;
+  min-width: 100vh;
+  min-height: 100vh;
+  justify-content: center;
+}
 </style>
